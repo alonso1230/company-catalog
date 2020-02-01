@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Company Catalog</string>
+
+    <string name="website">Веб-сайт:</string>
+    <string name="phone">Телефон:</string>
+    <string name="error_text">Упс…\nЧто-то пошло не так</string>
+
+</resources>

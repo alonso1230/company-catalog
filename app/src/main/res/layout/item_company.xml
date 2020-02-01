@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llCompanyContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvNameCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_16"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_24"
+        tools:text="Sample" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:gravity="center">
+
+        <ProgressBar
+            android:id="@+id/pbCompanyListImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/ivCompany"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:layout_marginRight="@dimen/margin_16"
+            android:layout_marginBottom="@dimen/margin_16"
+            android:scaleType="fitCenter"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>
