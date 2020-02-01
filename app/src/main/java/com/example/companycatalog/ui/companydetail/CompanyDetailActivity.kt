@@ -58,6 +58,7 @@ class CompanyDetailActivity : AppCompatActivity(), OnMapReadyCallback {
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.fragmentGoogleMap) as SupportMapFragment?
         mapFragment!!.getMapAsync(this)
+        viewModel.isMarkerAdded = false
     }
 
     private fun initLiveData() {
